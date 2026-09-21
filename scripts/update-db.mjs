@@ -15,6 +15,8 @@ if(!fs.existsSync(seedPath)) {
 }
 const baseline=JSON.parse(fs.readFileSync(seedPath,'utf8'));
 const trusted=new Set(baseline.map(c=>c.type+'\n'+c.effect));
+const reviewed=JSON.parse(fs.readFileSync(path.join(db,'reviewed-effects.json'),'utf8'));
+for(const rule of reviewed)trusted.add(rule.type+'\n'+rule.effect);
 const previous=fs.existsSync(path.join(db,'manifest.json'))?JSON.parse(fs.readFileSync(path.join(db,'manifest.json'),'utf8')):null;
 const previousPayload=previous?JSON.parse(fs.readFileSync(path.join(db,previous.file),'utf8')):null;
 const safeName=(c,awake=false)=>`${String(c.id).padStart(4,'0')}_${c.card_type.internal_id}_${c.display_card_number.split(/\s+/)[0].replaceAll('/','_')}${awake?'_awaken':''}.png`;
