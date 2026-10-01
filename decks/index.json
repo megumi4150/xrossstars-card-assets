@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "total": 2,
+  "total": 3,
   "decks": [
     {
       "code": "5d189ef7-9a28-439b-a59c-075831d34394",
@@ -20,6 +20,17 @@
       "file": "deck-d74fc8ea-02d7-423d-8101-921da171a767-285c1f8858704eed4cc6.json",
       "sha256": "f77e90110b614250a7f3c31930386425d5e77452804bd010bf96f7c160bd2640",
       "updated_at": "2026-10-01T11:16:15.374Z",
+      "main_count": 50,
+      "main_types": 14,
+      "tactics_count": 5
+    },
+    {
+      "code": "9a854032-5f48-42ca-8fb2-af51d080b60a",
+      "label": "1stAni　toppi",
+      "version": "01213e5cfc9c33f5cc3e",
+      "file": "deck-9a854032-5f48-42ca-8fb2-af51d080b60a-01213e5cfc9c33f5cc3e.json",
+      "sha256": "7439d00a16500f25fa5fbcab29f09b21e64d825e9f662d871ff2acf36a80db96",
+      "updated_at": "2026-10-01T15:04:10.627Z",
       "main_count": 50,
       "main_types": 14,
       "tactics_count": 5
