@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "total": 1,
+  "total": 2,
   "decks": [
     {
       "code": "5d189ef7-9a28-439b-a59c-075831d34394",
@@ -9,6 +9,17 @@
       "file": "deck-5d189ef7-9a28-439b-a59c-075831d34394-c62a2c53db51f84e0471.json",
       "sha256": "35a45ef20251892b128e9fbb491b7675bbed27b223a7b391b49ed5390fa52289",
       "updated_at": "2026-10-01T10:42:51.613Z",
+      "main_count": 50,
+      "main_types": 14,
+      "tactics_count": 5
+    },
+    {
+      "code": "d74fc8ea-02d7-423d-8101-921da171a767",
+      "label": "1stAni",
+      "version": "285c1f8858704eed4cc6",
+      "file": "deck-d74fc8ea-02d7-423d-8101-921da171a767-285c1f8858704eed4cc6.json",
+      "sha256": "f77e90110b614250a7f3c31930386425d5e77452804bd010bf96f7c160bd2640",
+      "updated_at": "2026-10-01T11:16:15.374Z",
       "main_count": 50,
       "main_types": 14,
       "tactics_count": 5
