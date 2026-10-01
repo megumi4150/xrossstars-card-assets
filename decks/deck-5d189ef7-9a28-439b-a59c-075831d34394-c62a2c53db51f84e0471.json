@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "code": "5d189ef7-9a28-439b-a59c-075831d34394",
+  "leaders": [
+    297,
+    621,
+    622,
+    623
+  ],
+  "main": [
+    {
+      "card_id": 318,
+      "count": 3
+    },
+    {
+      "card_id": 448,
+      "count": 3
+    },
+    {
+      "card_id": 505,
+      "count": 2
+    },
+    {
+      "card_id": 230,
+      "count": 4
+    },
+    {
+      "card_id": 626,
+      "count": 4
+    },
+    {
+      "card_id": 627,
+      "count": 4
+    },
+    {
+      "card_id": 630,
+      "count": 4
+    },
+    {
+      "card_id": 258,
+      "count": 4
+    },
+    {
+      "card_id": 634,
+      "count": 4
+    },
+    {
+      "card_id": 635,
+      "count": 4
+    },
+    {
+      "card_id": 636,
+      "count": 4
+    },
+    {
+      "card_id": 18,
+      "count": 4
+    },
+    {
+      "card_id": 625,
+      "count": 2
+    },
+    {
+      "card_id": 633,
+      "count": 4
+    }
+  ],
+  "tactics": [
+    {
+      "card_id": 91,
+      "count": 1
+    },
+    {
+      "card_id": 94,
+      "count": 1
+    },
+    {
+      "card_id": 638,
+      "count": 1
+    },
+    {
+      "card_id": 639,
+      "count": 1
+    },
+    {
+      "card_id": 641,
+      "count": 1
+    }
+  ],
+  "pp": 643,
+  "label": "サンプル：如月れん・AN1リーダー",
+  "version": "c62a2c53db51f84e0471",
+  "card_db_version": "8926830fa02d5557cad7"
+}

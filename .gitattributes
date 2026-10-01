@@ -1,0 +1,2 @@
+db/*.json text eol=lf
+decks/*.json text eol=lf

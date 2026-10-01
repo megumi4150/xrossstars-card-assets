@@ -1,8 +1,17 @@
-name: Update card database
+name: Update card database and decks
 on:
   schedule:
     - cron: '23 3 * * *'
   workflow_dispatch:
+    inputs:
+      deck_code:
+        description: '登録するデッキコード（空欄なら登録済みデッキとカードDBを更新）'
+        required: false
+        type: string
+      deck_label:
+        description: '一覧に表示するデッキ名（任意）'
+        required: false
+        type: string
   push:
     branches: [main]
 permissions:
@@ -25,11 +34,16 @@ jobs:
         with:
           node-version: '22'
       - run: node scripts/update-db.mjs
+      - name: Register and refresh decks
+        run: node scripts/update-decks.mjs
+        env:
+          REGISTER_DECK_CODE: ${{ inputs.deck_code }}
+          REGISTER_DECK_LABEL: ${{ inputs.deck_label }}
       - name: Save validated database and images
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add db card-images
+          git add db card-images decks
           if ! git diff --cached --quiet; then
             git commit -m 'Update validated card database'
             git push
@@ -37,7 +51,7 @@ jobs:
       - name: Build static site directory
         run: |
           mkdir _site
-          cp -r db card-images index.html .nojekyll _site/
+          cp -r db card-images decks index.html .nojekyll _site/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "total": 1,
+  "decks": [
+    {
+      "code": "5d189ef7-9a28-439b-a59c-075831d34394",
+      "label": "サンプル：如月れん・AN1リーダー",
+      "version": "c62a2c53db51f84e0471",
+      "file": "deck-5d189ef7-9a28-439b-a59c-075831d34394-c62a2c53db51f84e0471.json",
+      "sha256": "35a45ef20251892b128e9fbb491b7675bbed27b223a7b391b49ed5390fa52289",
+      "updated_at": "2026-10-01T10:42:51.613Z",
+      "main_count": 50,
+      "main_types": 14,
+      "tactics_count": 5
+    }
+  ]
+}
