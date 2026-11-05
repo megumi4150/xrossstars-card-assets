@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "4756861233e601f38fa0",
-  "file": "cards-4756861233e601f38fa0.json",
-  "sha256": "7f4f73e4c16878f3667155458c01cf7a64c0658cfaded228c5b4fcb575d9e64b",
-  "total": 751,
-  "updated_at": "2026-10-23T08:41:50.524Z",
-  "checked_at": "2026-11-03T11:02:00.645Z",
+  "version": "775afbc9eb67aacc2d3a",
+  "file": "cards-775afbc9eb67aacc2d3a.json",
+  "sha256": "e723042731765d45e3a5882cbcbb1eb1c6f6caf859cf3d44281e5d7d82dc32db",
+  "total": 756,
+  "updated_at": "2026-11-05T11:10:27.895Z",
+  "checked_at": "2026-11-05T11:10:27.895Z",
   "review_required": 26
 }
